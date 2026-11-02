@@ -194,7 +194,7 @@ Sample forecast results:
 
 #### Project File
 
-- `Task 4.ipynb` – Jupyter Notebook containing data preprocessing, model building, evaluation, and weekly sales forecasting.
+- `Predictive_Analytics_Using_Historical_data.ipynb` – Jupyter Notebook containing data preprocessing, model building, evaluation, and weekly sales forecasting.
 
 
 ## Skills Developed
