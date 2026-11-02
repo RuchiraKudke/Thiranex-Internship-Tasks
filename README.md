@@ -1,4 +1,4 @@
-<img width="1303" height="737" alt="Screenshot 2026-10-18 010849" src="https://github.com/user-attachments/assets/8a8cb233-0a94-46fb-bf89-12d113cae4ed" /># Thiranex Internship Tasks
+# Thiranex Internship Tasks
 
 ## About This Repository
 
