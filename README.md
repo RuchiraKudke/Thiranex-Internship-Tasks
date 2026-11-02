@@ -2,14 +2,15 @@
 
 ## About This Repository
 
-This repository contains the tasks and projects completed as part of my internship with **Thiranex**. It showcases my practical work, learning progress, and skills in data analytics, data visualization, and machine learning.
+This repository contains the tasks and projects completed as part of my internship with **Thiranex**. It showcases my practical work, learning progress, and skills in Data Analytics, Data Visualization, Machine Learning, and Predictive Analytics.
 
 ## Tasks Completed
 
-### Task 1: Offer Letter Announcement
+### Task 1: Internship Offer Letter Announcement
 
 - Shared the internship offer letter on LinkedIn as instructed.
 - Tagged Thiranex in the LinkedIn post.
+
 
 ### Task 2: Sales & Revenue Analysis Dashboard
 
@@ -45,9 +46,9 @@ Developed an interactive Sales & Revenue Analysis Dashboard using Microsoft Powe
 
 The objective of this project was to transform sales data into meaningful visual insights to understand revenue trends, customer activity, product performance, and regional sales distribution.
 
-#### Dashboard Preview
+#### Project File
 
-<img width="1303" height="737" alt="Sales & Revenue Analysis Dashboard" src="https://github.com/user-attachments/assets/8c26b5a9-a0b7-46ee-b166-578d5dbc2427" />
+- `Task 2.pbix` – Interactive Power BI dashboard.
 
 ### Task 3: Customer Segmentation Using K-Means Clustering
 
@@ -82,21 +83,19 @@ The dataset contains 9,800 sales records and 15 columns, including customer name
 
 #### Customer Segmentation Results
 
-The model identified three customer clusters:
-
 | Cluster | Number of Customers | Average Spending |
 |---|---:|---:|
 | Cluster 0 | 294 | 1,133.79 |
 | Cluster 1 | 153 | 5,540.16 |
 | Cluster 2 | 346 | 3,123.00 |
 
-*Average spending is reported in the dataset's original sales units.*
+Average spending is reported in the dataset's original sales units.
 
 #### Key Findings
 
-- **Cluster 0 — Lower-Spending Customers:** Customers with the lowest average spending and a smaller variety of purchased products.
-- **Cluster 1 — Higher-Spending Customers:** Customers with the highest average spending and the greatest product variety.
-- **Cluster 2 — Moderate-Spending Customers:** Customers whose average spending falls between the other two clusters.
+- **Cluster 0 – Lower-Spending Customers:** Customers with the lowest average spending and a smaller variety of purchased products.
+- **Cluster 1 – Higher-Spending Customers:** Customers with the highest average spending and the greatest product variety.
+- **Cluster 2 – Moderate-Spending Customers:** Customers whose average spending falls between the other two clusters.
 
 These segment labels are interpretations based on the calculated cluster averages.
 
@@ -108,21 +107,115 @@ These segment labels are interpretations based on the calculated cluster average
 
 #### Project Files
 
-- `Customer_Segmentation.ipynb` — Jupyter Notebook containing data analysis, clustering, and visualizations.
-- `customer_segments.csv` — Customer-level data with cluster assignments.
-- `cluster_summary.csv` — Summary statistics for each cluster.
+- `Task 3.ipynb` – Jupyter Notebook containing data analysis, clustering, and visualizations.
+- `customer_segments.csv` – Customer-level data with cluster assignments.
+- `cluster_summary.csv` – Summary statistics for each cluster.
+
+
+### Task 4: Predictive Analytics – Weekly Sales Forecasting
+
+#### Project Overview
+
+Developed a predictive analytics project using Python and machine learning techniques to analyze historical weekly sales data and forecast future sales.
+
+The project focuses on identifying sales patterns, building predictive models, evaluating their performance, and generating future weekly sales predictions.
+
+#### Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Statsmodels
+
+#### Project Objectives
+
+- Analyze historical weekly sales data.
+- Perform data preprocessing and exploratory analysis.
+- Build predictive models for weekly sales forecasting.
+- Compare different forecasting techniques.
+- Evaluate model performance using regression metrics.
+- Generate future weekly sales predictions.
+
+#### Methodology
+
+1. Loaded and explored the weekly sales dataset.
+2. Performed data preprocessing and prepared the time-series data.
+3. Split the data into training and testing sets.
+4. Built a Linear Regression model.
+5. Developed a Random Forest Regression model.
+6. Implemented an ARIMA time-series forecasting model.
+7. Evaluated model performance using MAE, RMSE, and R² Score.
+8. Generated future weekly sales forecasts.
+
+#### Models Implemented
+
+- **Linear Regression:** Used to establish a baseline predictive model for weekly sales.
+- **Random Forest Regression:** Used an ensemble learning approach to predict sales based on patterns in the training data.
+- **ARIMA (AutoRegressive Integrated Moving Average):** Used a time-series forecasting approach to predict future weekly sales.
+
+#### Model Evaluation Results
+
+The models were evaluated using the following metrics:
+
+- **MAE (Mean Absolute Error):** Measures the average absolute difference between actual and predicted sales.
+- **RMSE (Root Mean Squared Error):** Measures prediction errors while giving greater weight to larger errors.
+- **R² Score:** Measures how well the model explains variations in the target variable.
+
+| Model | MAE | RMSE | R² Score |
+|---|---:|---:|---:|
+| Linear Regression | 69,412.58 | 84,650.61 | -0.0803 |
+| Random Forest Regression | 120,120.44 | 140,513.82 | -1.9765 |
+| ARIMA | 104,878.25 | 122,601.63 | -1.3684 |
+
+#### Future Sales Forecast
+
+The ARIMA model was also used to generate future weekly sales predictions.
+
+Sample forecast results:
+
+| Date | Predicted Weekly Sales |
+|---|---:|
+| 2012-11-02 | 1,538,713 |
+| 2012-11-09 | 1,556,450 |
+| 2012-11-16 | 1,563,433 |
+| 2012-11-23 | 1,566,182 |
+
+#### Key Learnings
+
+- Understanding predictive analytics and time-series forecasting.
+- Working with historical sales data.
+- Building and comparing regression models.
+- Understanding ARIMA model implementation.
+- Evaluating predictive models using regression metrics.
+- Generating future sales forecasts using Python.
+
+#### Project File
+
+- `Task 4.ipynb` – Jupyter Notebook containing data preprocessing, model building, evaluation, and weekly sales forecasting.
+
 
 ## Skills Developed
 
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Data visualization
-- Power BI dashboard development
-- DAX measures and calculations
-- Customer-level feature engineering
-- K-Means clustering and feature scaling
-- Interpretation of data-driven business insights
-- GitHub project documentation
+- Data Cleaning and Preprocessing
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Power BI Dashboard Development
+- Power Query and DAX
+- Python Programming
+- Pandas and NumPy
+- Machine Learning
+- Customer Segmentation
+- K-Means Clustering
+- Predictive Analytics
+- Linear Regression
+- Random Forest Regression
+- Time-Series Forecasting using ARIMA
+- Model Evaluation
+- Data Interpretation and Business Insights
+- GitHub Project Documentation
 
 ## Future Tasks
 
@@ -134,4 +227,4 @@ MCA Student | Aspiring Data Analyst
 
 ---
 
-*This repository showcases my practical learning and project work during the Thiranex internship.*
+This repository showcases my practical learning, technical skills, and project work during the Thiranex internship.
