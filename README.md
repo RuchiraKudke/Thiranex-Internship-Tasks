@@ -48,7 +48,8 @@ The objective of this project was to transform sales data into meaningful visual
 
 #### Project File
 
-- `Task 2.pbix` – Interactive Power BI dashboard.
+![Uploading Screenshot 2026-10-18 010849.png…]()
+
 
 ### Task 3: Customer Segmentation Using K-Means Clustering
 
