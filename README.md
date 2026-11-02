@@ -1,4 +1,4 @@
-# Thiranex Internship Tasks
+<img width="1303" height="737" alt="Screenshot 2026-10-18 010849" src="https://github.com/user-attachments/assets/8a8cb233-0a94-46fb-bf89-12d113cae4ed" /># Thiranex Internship Tasks
 
 ## About This Repository
 
@@ -48,8 +48,7 @@ The objective of this project was to transform sales data into meaningful visual
 
 #### Project File
 
-![Uploading Screenshot 2026-10-18 010849.png…]()
-
+<img width="1303" height="737" alt="Screenshot 2026-10-18 010849" src="https://github.com/user-attachments/assets/24a86a6b-3b9c-4319-a748-9a4c02a9f3b5" />
 
 ### Task 3: Customer Segmentation Using K-Means Clustering
 
