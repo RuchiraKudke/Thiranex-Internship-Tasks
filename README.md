@@ -271,7 +271,6 @@ Dashboard features include:
 The objective of this project was to reduce manual data preparation efforts by creating a repeatable cleaning and reporting workflow, improve data quality through validation, and convert cleaned data into meaningful business insights using Power BI.
 
 #### Project Files
-- `Predictive_Analytics_Using_Historical_data.ipynb` – Jupyter Notebook
 - `Data Cleaning & Reporting Automation.ipynb` – Jupyter Notebook containing data exploration, cleaning, validation, reporting, and automation.
 - `retail_store_sales.csv` – Original dataset.
 - `Sales_Retail_dashboard.pbix` – Power BI dashboard file.
