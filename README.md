@@ -2,7 +2,7 @@
 
 ## About This Repository
 
-This repository contains the tasks and projects completed as part of my internship with **Thiranex**. It showcases my practical work, learning progress, and skills in Data Analytics, Data Visualization, Machine Learning, and Predictive Analytics.
+This repository contains the tasks and projects completed as part of my internship with **Thiranex**. It showcases my practical work, learning progress, and skills in Data Analytics, Data Visualization, Data Cleaning, Machine Learning, and Predictive Analytics.
 
 ## Tasks Completed
 
@@ -10,7 +10,6 @@ This repository contains the tasks and projects completed as part of my internsh
 
 - Shared the internship offer letter on LinkedIn as instructed.
 - Tagged Thiranex in the LinkedIn post.
-
 
 ### Task 2: Sales & Revenue Analysis Dashboard
 
@@ -46,9 +45,9 @@ Developed an interactive Sales & Revenue Analysis Dashboard using Microsoft Powe
 
 The objective of this project was to transform sales data into meaningful visual insights to understand revenue trends, customer activity, product performance, and regional sales distribution.
 
-#### Project File
+#### Project Screenshot
 
-<img width="1303" height="737" alt="Screenshot 2026-10-18 010849" src="https://github.com/user-attachments/assets/24a86a6b-3b9c-4319-a748-9a4c02a9f3b5" />
+<img width="1303" height="737" alt="Sales and Revenue Analysis Dashboard" src="https://github.com/user-attachments/assets/24a86a6b-3b9c-4319-a748-9a4c02a9f3b5" />
 
 ### Task 3: Customer Segmentation Using K-Means Clustering
 
@@ -110,7 +109,6 @@ These segment labels are interpretations based on the calculated cluster average
 - `Task 3.ipynb` – Jupyter Notebook containing data analysis, clustering, and visualizations.
 - `customer_segments.csv` – Customer-level data with cluster assignments.
 - `cluster_summary.csv` – Summary statistics for each cluster.
-
 
 ### Task 4: Predictive Analytics – Weekly Sales Forecasting
 
@@ -196,10 +194,94 @@ Sample forecast results:
 
 - `Predictive_Analytics_Using_Historical_data.ipynb` – Jupyter Notebook containing data preprocessing, model building, evaluation, and weekly sales forecasting.
 
+### Task 5: Automated Data Cleaning and Reporting
+
+#### Project Overview
+
+Developed an automated data cleaning and reporting workflow using Python and Power BI. The project focuses on cleaning a retail sales dataset, handling missing and inconsistent values, validating records, generating summary reports, and presenting business insights through an interactive dashboard.
+
+#### Tools & Technologies
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Microsoft Power BI
+
+#### Dataset Description
+
+The Retail Store Sales dataset contains **12,575 records and 11 columns**, including transaction details, customer information, product categories, prices, quantities, payment methods, locations, and transaction dates.
+
+#### Data Cleaning and Preprocessing
+
+1. Loaded and explored the retail sales dataset using Pandas.
+2. Checked missing values and duplicate records.
+3. Removed duplicate records.
+4. Standardized text columns by removing unnecessary whitespace.
+5. Converted transaction dates into datetime format.
+6. Converted numerical columns into appropriate data types.
+7. Handled missing numerical values using median imputation.
+8. Replaced missing item names with "Unknown".
+9. Handled missing discount information.
+10. Removed records with invalid transaction dates.
+
+#### Data Validation Results
+
+Validated the relationship between `Price Per Unit`, `Quantity`, and `Total Spent`.
+
+| Validation Metric | Result |
+|---|---:|
+| Total Records | 12,575 |
+| Mismatched Records | 1,183 |
+| Matching Records | 11,392 |
+| Mismatch Percentage | 9.41% |
+
+#### Automated Reporting
+
+Generated summary reports to make the analysis process more efficient:
+
+- KPI summary report
+- Monthly sales report
+- Category-wise sales report
+- Payment method report
+- Cleaned retail sales dataset
+
+#### Power BI Dashboard
+
+Created an interactive Retail Store Sales Analysis Dashboard using the cleaned dataset.
+
+Dashboard features include:
+
+- Total Revenue
+- Total Transactions
+- Total Quantity
+- Average Transaction Value
+- Total Customers
+- Monthly sales trend analysis
+- Category-wise sales analysis
+- Payment method distribution
+- Location-wise sales analysis
+- Top 10 items by sales
+- Interactive slicers and filters
+
+#### Project Objective
+
+The objective of this project was to reduce manual data preparation efforts by creating a repeatable cleaning and reporting workflow, improve data quality through validation, and convert cleaned data into meaningful business insights using Power BI.
+
+#### Project Files
+- `Predictive_Analytics_Using_Historical_data.ipynb` – Jupyter Notebook
+- `Data Cleaning & Reporting Automation.ipynb` – Jupyter Notebook containing data exploration, cleaning, validation, reporting, and automation.
+- `retail_store_sales.csv` – Original dataset.
+- `Sales_Retail_dashboard.pbix` – Power BI dashboard file.
+- `output/` – Folder containing the cleaned dataset and generated reports.
 
 ## Skills Developed
 
 - Data Cleaning and Preprocessing
+- Data Validation
+- Automated Data Reporting
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - Power BI Dashboard Development
@@ -217,9 +299,6 @@ Sample forecast results:
 - Data Interpretation and Business Insights
 - GitHub Project Documentation
 
-## Future Tasks
-
-Additional internship tasks and projects will be added to this repository as they are completed.
 
 ## Author
 
